@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homepage</title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+        rel='stylesheet'>
+
+</head>
+
+<body class = "home">
+    
+    <div class="wrapper">
+        <h1 class = "logo">Login</h1>
+
+        <form action="login.php" method="post">
+            
+            <div class = "input-field"> 
+                <input type="text" id="user" placeholder="Username" 
+                name="user" required>
+                <i class='bx bx-user' ></i>
+            </div>
+
+            <div class = "input-field">
+                <input type="password" id="pass" placeholder="Password" 
+                name="pass" required>
+                <i class='bx bx-lock-open' ></i>
+            </div>
+            <br>
+            <button class="btn">Login</button>
+
+        </form>
+        <br>
+        <a href="SignUp.html" >
+            <button class="btn">Sign Up</button>
+           </a>
+    </div>
+
+</body>
+
+</html>
